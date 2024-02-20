@@ -7,5 +7,6 @@ public class QuadraticEquations {
         Roots root  = new Roots();
         rf.hello();
         root.sayRoots(rf.getA(), rf.getB(), d.dscr(rf.getA(), rf.getB(), rf.getC()));
+        System.out.println("Good Bye!");
     }
 }
