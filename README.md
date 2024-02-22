@@ -1,3 +1,4 @@
+# QuadraticEquations
 **QuadraticEquations(v2.0)** - программа, решающая квадратные уравнения.
 ## Требования
 - Установленный JDK 8+
