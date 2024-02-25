@@ -4,8 +4,10 @@ public class QuadraticEquations {
     public static void main(String[] args) {
         ReaderFunction rf = new ReaderFunction();
         Roots root  = new Roots();
+        FormattingEquation fe = new FormattingEquation();
         rf.hello();
-        root.sayRoots(rf.getA(), rf.getB(), root.dscr(rf.getA(), rf.getB(), rf.getC()));
+        fe.format(rf.getEquation());
+        root.sayRoots(fe.getA(), fe.getB(), root.dscr(fe.getA(), fe.getB(), fe.getC()));
         System.out.println("Пока!");
     }
 }
